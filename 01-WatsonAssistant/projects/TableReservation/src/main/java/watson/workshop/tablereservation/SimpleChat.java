@@ -1,3 +1,10 @@
+//https://console.bluemix.net/docs/services/conversation/develop-app.html#building-a-client-application
+
+/*
+ * Example 1: sets up service wrapper, sends initial message, and
+ * receives response.
+ */
+
 package watson.workshop.tablereservation;
 
 import java.util.logging.LogManager;

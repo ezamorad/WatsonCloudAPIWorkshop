@@ -1,25 +1,24 @@
+//https://console.bluemix.net/docs/services/conversation/develop-app.html#building-a-client-application
+
+/*
+ * Example 4: implements app actions.
+ */
+
 package watson.workshop.tablereservation;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.time.LocalTime;
-import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.logging.LogManager;
 
 import org.json.JSONObject;
-
-/*
- * Example 4: implements app actions.
- */
 
 import com.ibm.watson.developer_cloud.assistant.v1.Assistant;
 import com.ibm.watson.developer_cloud.assistant.v1.model.Context;
 import com.ibm.watson.developer_cloud.assistant.v1.model.InputData;
 import com.ibm.watson.developer_cloud.assistant.v1.model.MessageOptions;
 import com.ibm.watson.developer_cloud.assistant.v1.model.MessageResponse;
-import com.ibm.watson.developer_cloud.assistant.v1.model.RuntimeIntent;
 
 public class SimpleChat4 {
   public static void main(String[] args) {

@@ -1,3 +1,9 @@
+//https://console.bluemix.net/docs/services/conversation/develop-app.html#building-a-client-application
+
+/*
+ * Example 3: maintains state.
+ */
+
 package watson.workshop.tablereservation;
 
 import java.io.BufferedReader;
@@ -5,10 +11,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.List;
 import java.util.logging.LogManager;
-
-/*
- * Example 3: maintains state.
- */
 
 import com.ibm.watson.developer_cloud.assistant.v1.Assistant;
 import com.ibm.watson.developer_cloud.assistant.v1.model.Context;

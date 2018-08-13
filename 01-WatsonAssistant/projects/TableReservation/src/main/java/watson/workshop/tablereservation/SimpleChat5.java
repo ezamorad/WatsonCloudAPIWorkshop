@@ -1,3 +1,10 @@
+//https://console.bluemix.net/docs/services/conversation/develop-app.html#building-a-client-application
+
+
+/*
+ * Example 4: Stored reservation into Database
+ */
+
 package watson.workshop.tablereservation;
 
 import java.io.BufferedReader;
@@ -8,16 +15,11 @@ import java.util.logging.LogManager;
 
 import org.json.JSONObject;
 
-/*
- * Example 4: implements app actions.
- */
-
 import com.ibm.watson.developer_cloud.assistant.v1.Assistant;
 import com.ibm.watson.developer_cloud.assistant.v1.model.Context;
 import com.ibm.watson.developer_cloud.assistant.v1.model.InputData;
 import com.ibm.watson.developer_cloud.assistant.v1.model.MessageOptions;
 import com.ibm.watson.developer_cloud.assistant.v1.model.MessageResponse;
-import com.ibm.watson.developer_cloud.assistant.v1.model.RuntimeIntent;
 
 import watson.workshop.dao.ReservationDao;
 import watson.workshop.dao.ReservationFactory;
@@ -64,7 +66,7 @@ public class SimpleChat5 {
 		    currentAction = "";
 		  }
 		  
-		  System.out.println("Actions are" + outputObj.toString() + ".");
+		  //System.out.println("Actions are" + outputObj.toString() + ".");
 
 		  // User confirms saving the reservation
 		  if(currentAction.equals("save")) {
