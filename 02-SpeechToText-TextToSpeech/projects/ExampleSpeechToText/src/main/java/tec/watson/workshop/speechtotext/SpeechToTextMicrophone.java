@@ -45,7 +45,7 @@ public class SpeechToTextMicrophone {
 		   //.inactivityTimeout(5) // use this to stop listening when the speaker pauses, i.e. for 5s
 		     .audio(audio)
 		     .contentType(HttpMediaType.AUDIO_RAW + "; rate=" + sampleRate)
-		     .model("es-ES_BroadbandModel")
+		    // .model("us-EN_BroadbandModel")
 		     .keywords(Arrays.asList("prueba"))
 		     .keywordsThreshold((float) 0.5)
 		     .maxAlternatives(3)

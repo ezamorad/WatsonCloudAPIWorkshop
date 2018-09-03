@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/commons-lang3-3.5.jar"/>
+	<classpathentry kind="lib" path="lib/core-6.5.1.jar"/>
+	<classpathentry kind="lib" path="lib/gson-2.8.0.jar"/>
+	<classpathentry kind="lib" path="lib/jersey-jsr166e-2.25.1.jar"/>
+	<classpathentry kind="lib" path="lib/logging-interceptor-3.11.0.jar"/>
+	<classpathentry kind="lib" path="lib/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="lib/okhttp-urlconnection-3.11.0.jar"/>
+	<classpathentry kind="lib" path="lib/okio-1.14.0.jar"/>
+	<classpathentry kind="lib" path="lib/visual-recognition-6.5.1.jar"/>
+	<classpathentry kind="lib" path="lib/argparse4j-0.7.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
