@@ -1,0 +1,10 @@
+---
+applications:
+- name: nlc-ez-news-java
+  memory: 512M
+
+  services:
+  - mytestapp-ez-cloudantNoSQLDB
+  - natural-language-classifier-standard
+  env:
+    CLASSIFIER_ID: 6874ebx556-nlc-933
