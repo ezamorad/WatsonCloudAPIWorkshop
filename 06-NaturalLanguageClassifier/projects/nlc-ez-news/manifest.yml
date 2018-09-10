@@ -1,0 +1,12 @@
+- name: nlc-ez-news-java
+  disk_quota: 1G
+  env:
+    CLASSIFIER_ID: 6f1d8ax561-nlc-809
+  instances: 1
+  memory: 1G
+  routes:
+  - route: nlc-ez-news-java.mybluemix.net
+  services:
+  - mytestapp-ez-cloudantNoSQLDB
+  - TecWorkshopNLC
+  stack: cflinuxfs2
